@@ -58,9 +58,11 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-          <Button className="bg-red-600 hover:bg-red-700 transition-all duration-200 group-hover:shadow-md">
-            Book Now
-          </Button>
+          <Link href="/contact#top">
+            <Button className="bg-red-600 hover:bg-red-700 transition-all duration-200 group-hover:shadow-md">
+              Book Now
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
