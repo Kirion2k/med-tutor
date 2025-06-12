@@ -191,8 +191,8 @@ export default function ContactPage() {
 
               <div className="space-y-4">
                 <div className="flex justify-between">
-                  <span className="font-medium">Monday - Friday</span>
-                  <span>3:00 PM - 8:00 PM</span>
+                  <span className="font-medium">TBD</span>
+                  {/* <span>3:00 PM - 8:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Saturday</span>
@@ -200,14 +200,14 @@ export default function ContactPage() {
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Sunday</span>
-                  <span>Closed</span>
+                  <span>Closed</span> */}
                 </div>
               </div>
 
               <div className="mt-6 pt-6 border-t">
-                <p className="text-gray-600 text-sm">
+                {/* <p className="text-gray-600 text-sm">
                   * Hours may vary during exam periods and university holidays. Please contact for availability.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

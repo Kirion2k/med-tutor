@@ -433,9 +433,8 @@ export default function Home() {
                 <h4 className="font-semibold text-lg text-gray-900">Teaching Experience:</h4>
                 <ul className="space-y-3">
                   {[
-                    "3+ years of tutoring pre-med students",
-                    "Teaching Assistant for BIOSCI 107 (2021-2022)",
-                    "UCAT Workshop Facilitator",
+                    "1-2 years of tutoring pre-med students",
+                    "UCAT Tutor",
                     "MMI Interview Coach for 20+ successful applicants",
                   ].map((experience, i) => (
                     <li
@@ -471,20 +470,20 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <TestimonialCard
-            quote="Sarah's UCAT tutoring was instrumental in helping me achieve a score in the 95th percentile. Her strategies and personalised feedback made all the difference."
-            name="Michael L."
+            quote="Mitchells's UCAT tutoring was instrumental in helping me achieve a score in the 95th percentile. Her strategies and personalised feedback made all the difference."
+            name="Leo X."
             role="First Year Medical Student"
             rating={5}
           />
           <TestimonialCard
-            quote="The MMI coaching sessions were incredibly helpful. Sarah provided detailed feedback on my responses and helped me develop the confidence I needed to succeed in my interview."
-            name="Emma W."
+            quote="The MMI coaching sessions were incredibly helpful. Mitchell provided detailed feedback on my responses and helped me develop the confidence I needed to succeed in my interview."
+            name="Carter U."
             role="Medical Student, Class of 2023"
             rating={5}
           />
           <TestimonialCard
-            quote="I was struggling with BIOSCI 107 until I started tutoring with Sarah. Her clear explanations and study resources helped me improve from a C to an A-."
-            name="David T."
+            quote="I was struggling with BIOSCI 107 until I started tutoring with Mitchell. Her clear explanations and study resources helped me improve from a C to an A-."
+            name="Joe M."
             role="Pre-Med Student"
             rating={5}
           />
