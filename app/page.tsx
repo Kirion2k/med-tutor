@@ -64,7 +64,7 @@ export default function Home() {
             </h1>
             <p className="text-lg text-gray-700 max-w-lg">
               Personalised tutoring for University of Auckland pre-medicine courses, UCAT preparation, and MMI interview
-              coaching from a top-performing graduate.
+              coaching from a top-performing student.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact#top">
