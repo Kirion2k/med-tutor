@@ -10,10 +10,13 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Auckland Med Tutor | Pre-Med, UCAT & MMI Tutoring",
+  title: "Auckland Med Tutor",
   description:
-    "Personalized tutoring for University of Auckland pre-medicine courses, UCAT preparation, and MMI interview coaching.",
-    generator: 'v0.dev'
+    "Personalised tutoring for University of Auckland pre-medicine courses, UCAT preparation, and MMI interview coaching.",
+    icons: {
+      icon: "/icon.png",   // points at public/favicon.png
+    }
+
 }
 
 export default function RootLayout({
