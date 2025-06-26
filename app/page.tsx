@@ -752,7 +752,7 @@ export default function Home() {
               size="lg"
               className="bg-red-600 hover:bg-red-700 transform hover:scale-105 transition-all duration-200"
             >
-              Book Your Free Consultation
+              Enquire today!
             </Button>
           </Link>
         </div>
