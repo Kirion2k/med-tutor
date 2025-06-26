@@ -12,7 +12,7 @@ export default function Footer() {
               Personalised tutoring for University of Auckland pre-medicine courses, UCAT preparation, and MMI interview
               coaching.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <Link href="#" className="hover:text-red-500 transition-colors">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
@@ -25,7 +25,7 @@ export default function Footer() {
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div>
@@ -78,13 +78,14 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
                 <span>+64 21 123 4567</span>
-              </li>
+              </li> */}
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                <span>info@aucklandmedtutor.co.nz</span>
+                <span>aucklandmedtutor@gmail.com
+                </span>
               </li>
             </ul>
           </div>

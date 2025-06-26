@@ -37,18 +37,18 @@ export default function Navbar() {
           >
             About
           </Link>
-          <Link
+          {/* <Link
             href="/#testimonials"
             className="text-sm font-medium text-gray-700 hover:text-red-600 transition-colors duration-200"
           >
             Testimonials
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             href="/#pricing"
             className="text-sm font-medium text-gray-700 hover:text-red-600 transition-colors duration-200"
           >
             Pricing
-          </Link>
+          </Link> */}
           <Link
             href="/contact"
             className="text-sm font-medium text-gray-700 hover:text-red-600 transition-colors duration-200"
@@ -60,7 +60,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-4">
           <Link href="/contact#top">
             <Button className="bg-red-600 hover:bg-red-700 transition-all duration-200 group-hover:shadow-md">
-              Book Now
+              Enquire now
             </Button>
           </Link>
         </div>

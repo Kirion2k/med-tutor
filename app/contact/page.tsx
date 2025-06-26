@@ -134,12 +134,22 @@ export default function ContactPage() {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="message">Message</Label>
+                <Label htmlFor="message">What are your goals and main concerns?</Label>
                 <Textarea
                   id="message"
                   name="message"
                   placeholder="Enter your message"
-                  rows={5}
+                  rows={3}
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="message">Anything else you want me to know?</Label>
+                <Textarea
+                  id="message"
+                  name="message"
+                  placeholder="Enter your message"
+                  rows={1}
                 />
               </div>
 
@@ -158,19 +168,19 @@ export default function ContactPage() {
               <h2 className="text-xl font-semibold text-gray-900 mb-6">Contact Information</h2>
 
               <div className="space-y-6">
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <Phone className="h-5 w-5 text-red-600 mr-4 mt-1" />
                   <div>
                     <p className="font-medium text-gray-900">Phone</p>
                     <p className="text-gray-600">+64 21 123 4567</p>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-start">
                   <Mail className="h-5 w-5 text-red-600 mr-4 mt-1" />
                   <div>
                     <p className="font-medium text-gray-900">Email</p>
-                    <p className="text-gray-600">info@aucklandmedtutor.co.nz</p>
+                    <p className="text-gray-600">aucklandmedtutor@gmail.com</p>
                   </div>
                 </div>
 
