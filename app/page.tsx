@@ -64,7 +64,7 @@ export default function Home() {
               Dreams
             </h1>
             <p className="text-lg text-gray-700 max-w-lg">
-            Personalised 1 on 1 tutoring for University of Auckland pre-medicine courses, UCAT preparation, and MMI interview coaching from a top-performing student
+              Personalised 1 on 1 tutoring for University of Auckland pre-medicine courses, UCAT preparation, and MMI interview coaching from a top-performing student
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact#top">
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-300">
             <Image
-              src="/med-students.jpg?height=800&width=600&text=Tutor+Teaching+Medical+Student"
+              src="/doctor.png?height=800&width=600&text=Tutor+Teaching+Medical+Student"
               alt="Auckland Med Tutor"
               fill
               className="object-cover"
@@ -101,7 +101,7 @@ export default function Home() {
       {/* Stats Section - Tutor's Achievements */}
       <section ref={statsRef} className="bg-white py-24 md:py:32 opacity-0">
         <div className="max-w-6xl mx-auto px-4">
-        <div className="text-center mb-16">
+          <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Proven Excellence</h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               My personal achievements demonstrate the success you can achieve
@@ -130,7 +130,7 @@ export default function Home() {
               </div>
               <p className="text-6xl md:text-7xl font-bold text-red-600 mb-2">3170</p>
               <p className="text-xl font-semibold text-gray-900 mb-2">UCAT Score</p>
-              <p className="text-lg text-gray-600">97th percentile in Australia and NZ</p>
+              <p className="text-lg text-gray-600">97th percentile in Australia and NZ *excluding SJT</p>
             </div>
           </div>
         </div>
@@ -321,11 +321,11 @@ export default function Home() {
                 <div className="text-center mb-8">
                   <h3 className="text-3xl font-semibold text-gray-900 mb-4">MMI Coaching</h3>
                   <p className="text-gray-600 max-w-3xl mx-auto">
-                  With the MMI making up 25% of your entry portfolio, its important to get it right. 
+                    With the MMI making up 25% of your entry portfolio, its important to get it right.
                   </p>
                   <p className="text-gray-600 max-w-3xl mx-auto">&nbsp;</p>
                   <p className="text-gray-600 max-w-3xl mx-auto">
-                  Comprehensive preparation for the Multiple Mini Interview format used by the University of Auckland with personalised coaching and feedback. Material covers content for Australian university entry as well
+                    Comprehensive preparation for the Multiple Mini Interview format used by the University of Auckland with personalised coaching and feedback. Material covers content for Australian university entry as well
                   </p>
                 </div>
 
@@ -408,7 +408,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-300">
-              <Image src="./mitch.jpg?height=1000&width=800" alt="Tutor Portrait" fill className="object-cover" />
+              <Image src="./new-avatar.jpg?height=1000&width=800" alt="Tutor Portrait" fill className="object-cover" />
             </div>
             <div className="space-y-6">
               <h3 className="text-2xl font-bold text-gray-900">Current 3rd Year Medical Student</h3>
@@ -462,7 +462,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
       {/* Detailed Academic Achievements Section */}
       <section ref={achievementsRef} className="py-20 bg-gradient-to-br from-brand-light to-red-100 opacity-0">
         <div className="max-w-6xl mx-auto px-4">
@@ -566,10 +566,10 @@ export default function Home() {
                     <h4 className="font-semibold text-sm">UoO Leaders of Tomorrow</h4>
                     <p className="text-xs text-gray-600">Scholarship offer valued at $7,000</p>
                   </div>
-                  <div className="border-l-4 border-red-600 pl-4">
+                  {/* <div className="border-l-4 border-red-600 pl-4">
                     <h4 className="font-semibold text-sm">Dux Litterarum PNBHS 2022</h4>
                     <p className="text-xs text-gray-600">Academic excellence recognition</p>
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>
@@ -619,8 +619,8 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8"> */}
-            {/* MMI Tutoring Package */}
-            {/* <Card className="border-red-200 relative flex flex-col transform hover:scale-105 transition-all duration-300 hover:shadow-lg">
+      {/* MMI Tutoring Package */}
+      {/* <Card className="border-red-200 relative flex flex-col transform hover:scale-105 transition-all duration-300 hover:shadow-lg">
               <CardContent className="p-6 flex-grow">
                 <div className="flex items-center mb-4">
                   <BookOpen className="h-6 w-6 text-red-600 mr-2" />
@@ -656,8 +656,8 @@ export default function Home() {
               </div>
             </Card> */}
 
-            {/* Semester 2 Tutoring Package */}
-            {/* <Card className="border-red-600 relative flex flex-col shadow-lg transform hover:scale-105 transition-all duration-300">
+      {/* Semester 2 Tutoring Package */}
+      {/* <Card className="border-red-600 relative flex flex-col shadow-lg transform hover:scale-105 transition-all duration-300">
               <div className="absolute top-0 left-0 right-0 bg-red-600 text-white text-center py-1 text-sm font-medium">
                 Most Popular
               </div>
@@ -697,8 +697,8 @@ export default function Home() {
               </div>
             </Card> */}
 
-            {/* UCAT Masterclass Package */}
-            {/* <Card className="border-red-200 relative flex flex-col transform hover:scale-105 transition-all duration-300 hover:shadow-lg">
+      {/* UCAT Masterclass Package */}
+      {/* <Card className="border-red-200 relative flex flex-col transform hover:scale-105 transition-all duration-300 hover:shadow-lg">
               <CardContent className="p-6 flex-grow">
                 <div className="flex items-center mb-4">
                   <Target className="h-6 w-6 text-red-600 mr-2" />
@@ -745,7 +745,7 @@ export default function Home() {
             Ready to Start Your Medical School Journey?
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-            Book a free 30-minute consultation to discuss your goals and how I can help you achieve them.
+            Reach out today and let's see how we can work together to help reach your med goals!
           </p>
           <Link href="/contact#top">
             <Button

@@ -57,7 +57,7 @@ export default function Footer() {
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/#testimonials" className="hover:text-red-500 transition-colors">
                   Testimonials
                 </Link>
@@ -66,7 +66,7 @@ export default function Footer() {
                 <Link href="/#pricing" className="hover:text-red-500 transition-colors">
                   Pricing
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact" className="hover:text-red-500 transition-colors">
                   Contact

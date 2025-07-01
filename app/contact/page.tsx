@@ -15,6 +15,7 @@ import { Mail, Phone, MapPin } from "lucide-react"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function ContactPage() {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">(
@@ -197,28 +198,33 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-white p-6 md:p-8 rounded-lg shadow-md">
-              <h2 className="text-xl font-semibold text-gray-900 mb-6">Tutoring Hours</h2>
+              <h2 className="text-l font-semibold text-gray-900 mb-6">Do you need BIOSCI and CHEM summary sheets? </h2>
 
-              <div className="space-y-4">
-                <div className="flex justify-between">
-                  <span className="font-medium">TBD</span>
-                  {/* <span>3:00 PM - 8:00 PM</span>
+              <div className="space-y-4 text-center mb-6">
+                <div className="flex justify-between mb-6">
+                  <span className="font-medium text-center">Want to access my high yeild BIOSCI and CHEM summary sheets tailored to include all exam and test contents in just 2 pages?</span>
+                  {/* <span>3:00 PM - 8:00 PM</span> */}
                 </div>
-                <div className="flex justify-between">
+                <Link href="/contact#top">
+                  <Button className="bg-red-600 hover:bg-red-700 transform hover:scale-105 transition-all duration-200 px-10 py-6">
+                    Send message
+                  </Button>
+                </Link>
+                {/* <div className="flex justify-between">
                   <span className="font-medium">Saturday</span>
                   <span>10:00 AM - 4:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Sunday</span>
-                  <span>Closed</span> */}
-                </div>
+                  <span>Closed</span>
+                </div> */}
               </div>
 
-              <div className="mt-6 pt-6 border-t">
-                {/* <p className="text-gray-600 text-sm">
+              {/* <div className="mt-6 pt-6 border-t">
+                <p className="text-gray-600 text-sm">
                   * Hours may vary during exam periods and university holidays. Please contact for availability.
-                </p> */}
-              </div>
+                </p>
+              </div> */}
             </div>
           </div>
         </div>

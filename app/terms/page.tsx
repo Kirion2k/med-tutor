@@ -232,9 +232,9 @@ export default function TermsOfServicePage() {
                                 <p className="text-gray-700">
                                     <strong>Auckland Med Tutor</strong>
                                 </p>
-                                <p className="text-gray-700">Email: info@aucklandmedtutor.co.nz</p>
-                                <p className="text-gray-700">Phone: +64 21 123 4567</p>
-                                <p className="text-gray-700">Address: University of Auckland City Campus Area, Auckland, New Zealand</p>
+                                <p className="text-gray-700">Email: aucklandmedtutor@gmail.com</p>
+                                {/* <p className="text-gray-700">Phone: +64 21 123 4567</p>
+                                <p className="text-gray-700">Address: University of Auckland City Campus Area, Auckland, New Zealand</p> */}
                             </div>
                         </section>
                     </CardContent>
